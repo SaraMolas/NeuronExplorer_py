@@ -16,7 +16,13 @@ This GitHub repository contains a collection of scripts I developed during my Ph
 - Non-parametric statistics: Wilcoxon rank-sum test
 - Pearson's correlation
 - Monte Carlo Simulation
-  
+
+## Python packages required: 
+
+- For data handling and processing: **Numpy, Pandas**
+- For Statistics and Machine Learning: **Scikit-Learn (sklearn), Scipy.stats**
+- For plotting: **Matplotlib.pyplot, Seaborn**
+- 
 ## Glossary: 
 
 - Place cell: neuron in the hippocampus that fires in a specific location in space.
