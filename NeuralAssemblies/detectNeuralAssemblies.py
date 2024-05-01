@@ -1,4 +1,4 @@
-
+# Script to detect the neural assemblies in each session and the ratio of 'disambiguating cells' present in each neural assembly across all sessions 
 
 # 0. Import packages
 from tkinter import filedialog
@@ -6,9 +6,7 @@ import numpy as np
 from scipy import stats
 import pandas as pd
 import math
-from sklearn.decomposition import FastICA, PCA
-import matplotlib.pyplot as plt
-import scipy.ndimage as ndimage
+from sklearn.decomposition import FastICA
 import random 
 from os.path import exists
 
