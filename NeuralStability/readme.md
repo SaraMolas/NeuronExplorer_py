@@ -1,4 +1,4 @@
-# Inputs:
+## Inputs:
 
 The scripts in this folder require certain variables to be computed beforehand: 
 - ratemapsTrials.npy: 3D-numpy array where axis 0 corresponds to cell number, axis 1 corresponds to number of spatial bins, and axis 2 corresponds to number of trials.
@@ -13,7 +13,7 @@ The scripts in this folder require certain variables to be computed beforehand:
 - roomCspeed.npy: vector with the average running speed (in cm/s) recorded in room C in each session. vector length = number of sessions.
 - PCstability.npy: vector with the average stability of all recorded place cells in each session. vector length = number of sessions.
 
-# Outputs:
+## Outputs:
 
 The scripts in this folder output the following file: 
 - stabilityScores.npy: vector containing the stability scores for all recorded neurons in each session. If a neuron was not classified as a place cell, then the stability score will be NaN. 
