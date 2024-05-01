@@ -54,5 +54,7 @@ statistic, p_value  = stats.ranksums(meanDisSessions,  meanPlaceSessions)
 print('results of ranksum test: ', statistic, ' and p-value: ', p_value )
 
 # 7. SAVE RESULTS  ---------------------------------------------------------------------------------------------------------------------
-np.save("D:/Sara/Figures_analysis/Thesis/subsetCells/characteristics/meanDisCells.npy", meanDisSessions)
-np.save("D:/Sara/Figures_analysis/Thesis/subsetCells/characteristics/meanRandomPlaceCells.npy", meanPlaceSessions)
+directory_save = filedialog.askdirectory() # select where to save results
+print('Save results in directory: ', directory_save)
+np.save(directory_save + 'meanDisCells.npy', meanDisSessions)
+np.save(directory_save + 'meanRandomPlaceCells.npy', meanPlaceSessions)
