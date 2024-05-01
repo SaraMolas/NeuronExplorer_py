@@ -29,9 +29,6 @@ preRewSlope = np.load (directory + "preRewardSlope.npy")
 licksC = np.load(directory + "roomCLicks.npy")
 speedC = np.load(directory + "roomCspeed.npy")
 speed = np.load(directory + "runningSpeed.npy")
-postRewLicks1Sec = np.load (directory + "postRewardLicks1sec.npy")
-postRewLicksHalfSec = np.load (directory + "postRewardLicks3sec.npy")
-postRewLicksQuarterSec = np.load (directory + "postRewardLicks5sec.npy")
 
 # 3. Train an SVM classifier testing different stability thresholds to find the cut-off point for optimal performance
 
